@@ -22,5 +22,32 @@ footer p{
  }
  /* alt selector to target .jpg/ $ means ends with */
  img[src$="jpg"]{
-     width: 500;
+     width: 500px;
+ }
+ /* pseudo classes can be target states of elements */
+ a:visited{
+     color: orangered;
+ }
+ a:hover{
+     color:tomato;
+ }
+ p:last-child{
+     font-style:italic;
+ }
+ /* use nth-child to style multi elements */
+ li:nth-child(2-1){
+     background-color: yellowgreen;
+ }
+ section{
+     width: 400px;
+     height: 200px;
+     background-color: darkgreen;
+ }
+ nav{
+     background-color: darkred;
+ }
+ span{
+     width: 100px;
+     height: 100px;
+     background-color: black;
  }

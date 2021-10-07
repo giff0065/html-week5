@@ -2,3 +2,25 @@
 body{
     background-color: green;
 }
+
+/* target all <p> to be 1 font colour */
+p, h2{
+    color: silver;
+}
+/* target the footer */
+footer p{
+    color:indigo;
+    font-size:10px;
+}
+ /* target an element based on class  */
+ .larger{
+     font-size:24px;
+ }
+ #play{
+     font-weight: bold;
+     font-size: 20px;
+ }
+ /* alt selector to target .jpg/ $ means ends with */
+ img[src$="jpg"]{
+     width: 500;
+ }
